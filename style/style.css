@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body h1{
     font-family: 'Merriweather', serif;
 }
 
@@ -38,6 +44,7 @@ header{
     font-size: 32px;
     margin-bottom: 30px;
     font-weight: 400;
+    font-family: 'Merriweather', serif;
 }
 
 .head__tittel h1{
@@ -199,6 +206,56 @@ header{
 }
 
 /* Gift contener end here  */
+/* Portfolio contener start here  */
+
+.portfolio__contener{
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.portfolio__content h5{
+    font-size: 24px;
+    font-weight: 500px;
+    color: #F00;
+}
+
+.portfolio__content h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.portfolio__content p{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-bottom: 50px;
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.portfolio .port__img{
+    width: 32%;
+}
+
+.port__img img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.port__img:hover{
+    box-shadow: 0 0 15px 0 black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Portfolio contener end here  */
 
 /* Main style end here  */
 
