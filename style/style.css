@@ -17,30 +17,134 @@ header{
 .head__contener{
     width: 80%;
     margin: 20px auto 0;
-    padding: 200px 0;
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.3)), url('../imges/banner.png');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    color: #fff;
     display: flex;
     justify-content: center;
 
 }
 
 .head__tittel{
+    width: 100%;
     text-align: center;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.3)), url('../imges/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .head__tittel p{
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 30px;
     font-weight: 400;
 }
 
 .head__tittel h1{
-    font-size: 65px;
+    font-size: 72px;
     font-weight: 900;
 }
 
 /* Header style end here  */
+
+
+/* Main style start here  */
+
+/* Categories Contener start  */
+
+.categories__contener{
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.categories h1{
+    font-size: 88px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #F00;
+}
+
+.categories p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+}
+
+.categories h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.categories img{
+    width: 100%;
+}
+
+/* Categories Contener end  */
+/* Party contener start here  */
+
+.party__contener{
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.party__content{
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+}
+
+.party__tittel{
+    width: 70%;
+}
+
+.party__tittel h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    margin-top: 20px;
+}
+
+.party__tittel p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.party__tittel button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #F00;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.party__img{
+    width: 30%;
+}
+
+.party__img img{
+    width: 100%;
+
+}
+/* Party contener end here  */
+/* Gift contener start here  */
+
+.gift__contener{
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+/* Gift contener end here  */
+
+/* Main style end here  */
+
+
