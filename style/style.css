@@ -91,7 +91,7 @@ header{
 
 .party__content{
     width: 100%;
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/Vectorrr.png');
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/vectorrr.png');
     background-position: center;
     background-size: cover;
     padding: 80px;
@@ -141,6 +141,61 @@ header{
 .gift__contener{
     width: 80%;
     margin: 0 auto 5%;
+}
+
+.gift__content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.coming__soon{
+    margin-top: 50px;
+}
+
+.coming__soon p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+}
+
+.coming__soon h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.coming__soon span{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);;
+}
+
+.img{
+    padding: 30px;
+    border: 10px solid #F00;
+    border-radius: 50%;
+}
+
+.event{
+    margin: 50px 0 0 30px;
+}
+
+.event h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.event p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 20px;
+}
+
+.event img{
+    margin-top: 50px;
 }
 
 /* Gift contener end here  */
