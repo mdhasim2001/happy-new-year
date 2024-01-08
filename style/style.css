@@ -54,9 +54,7 @@ header{
 
 /* Header style end here  */
 
-
 /* Main style start here  */
-
 /* Categories Contener start  */
 
 .categories__contener{
@@ -114,14 +112,14 @@ header{
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .party__tittel p{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .party__tittel button{
@@ -141,6 +139,7 @@ header{
     width: 100%;
 
 }
+
 /* Party contener end here  */
 /* Gift contener start here  */
 
@@ -151,7 +150,6 @@ header{
 
 .gift__content{
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
@@ -174,7 +172,7 @@ header{
 .coming__soon span{
     font-size: 20px;
     font-weight: 400;
-    color: rgba(7, 2, 17, 0.60);;
+    color: rgba(7, 2, 17, 0.60);
 }
 
 .img{
@@ -255,7 +253,6 @@ header{
 }
 
 /* Portfolio contener end here  */
-
 /* Subscribe contener start here  */
 
 .subscribe__contener{
@@ -322,10 +319,10 @@ header{
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 /* Subscribe contener end here  */
-
 /* Main style end here  */
 
 /* Footer style start here  */
@@ -335,6 +332,81 @@ header{
     background: #070211;
 }
 
+.footer__content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 120px 0 ;
+    color: #fff;
+}
+
+/* Footer tittel start here  */
+
+.footer__tittel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px 50px 0;
+}
+
+.heading p{
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact p, a{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer tittel end here  */
+/* Social icon start here  */
+
+.contact i{
+    padding: 0 20px;
+}
+
+.social__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icon img{
+    margin: 50px 10px;
+    cursor: pointer;
+}
+
+/* Social icon end here  */
+
+hr{
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #fff;
+}
+
+/* Footer last part start here  */
+
+.unsubscribe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unsubscribe p{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsubscribe .btn:hover{
+    cursor: pointer;
+    color: #F00;
+}
+
+/* Footer last part end here  */
 /* Footer style end here  */
-
-
