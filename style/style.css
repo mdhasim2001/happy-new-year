@@ -94,12 +94,12 @@ header{
 .party__contener{
     width: 80%;
     margin: 0 auto 5%;
-}
-
-.party__content{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/vectorrr.png');
     background-position: center;
     background-size: cover;
+}
+
+.party__content{
     padding: 80px;
     color: #fff;
     display: flex;
