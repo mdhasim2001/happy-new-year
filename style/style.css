@@ -94,7 +94,7 @@ header{
 .party__contener{
     width: 80%;
     margin: 0 auto 5%;
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/Vector.png');
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../imges/vector.png');
     background-position: center;
     background-size: cover;
 }
@@ -255,6 +255,76 @@ header{
 }
 
 /* Portfolio contener end here  */
+
+/* Subscribe contener start here  */
+
+.subscribe__contener{
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.subscribe__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.subscribe img{
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.subscribe p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    margin-bottom: 50px;
+}
+
+.subscribe label{
+    position: relative;
+    width: 650px;
+}
+
+.subscribe input{
+    padding: 20px 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.subscribe input[placeholder]{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.subscribe button{
+    position: absolute;
+    right: 0;
+    padding: 20px 30px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #F00;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Subscribe contener end here  */
 
 /* Main style end here  */
 
